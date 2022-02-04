@@ -1,0 +1,20 @@
+* We use in uncontrolled form useRef hooks.
+* It is like useState but it don't rerender the page.
+
+*** Syntax ===> const variable_name = useRef(initial_value);
+
+*** onSubmit needs to use to submit the form no needs of value and onChange field.
+    onSubmit(function)
+
+
+    //define anywhere the function
+    in that function pass event
+
+    //and for prevent the form behaviour
+    event.preventDefault();
+
+
+    ref_variable.current.value;
+
+
+
